@@ -160,10 +160,76 @@ def back():
 	login()
 #------------------[ LOGO-LAKNAT ]-----------------#
 def banner():
-	cetak(panel(f"""[bold green]                ___  ____ ____ _   _ ____ _  _ _  _ _  _ 
-[bold green]                |__] |__/ |__|  \_/  |___ |\ | |\ | |\ | 
-[bold green]                |__] |  \ |  |   |   |___ | \| | \| | \|                                                                                                        
-             """,width=90,padding=(0,8),title=f"Banner",style=f"bold white"))
+	cetak(panel(f"""[asu]  
+	                                   .-=+*+*++**+*+*++=-:                                   
+                              :=***+---=----:::::--=--=+**+-.                             
+                          -+**=--====-::::......:::::=====:-+**=:                         
+                     .-+**=-==+-:..::-:.............::::..-===--=**=.                     
+                  :+**=:-==:...........:::-------:::..........:-----+**-                  
+               -**=-:===.......::---===================--::.......-==--=**=.              
+            :**=-=*====:...:--==+*+++================++***+==-:....====++-=*#=.           
+          -#+:-=*+-==+-.--===***+=========================***+===-::====-*+=:-**.         
+        :#=.:==*-====--====++++==============================+*+====:-====*+==.:#+        
+       +#::==++=====.-===============================================::=====+==:.=%:      
+      **.-=+##*==========+=======================================+=========+##*==::%:     
+     =#-=+*####=========*+=======================================*+========*####*==-@.    
+    :%+=+#####-==+==++*##========================================+#**+=====-*####*==**    
+   .%*=*#####--=*++%####*=========================================####%*=*+=:#####*=+%=   
+  .%*%######+.=*+=*%%###*=======+++++++*+=========+++=+++========+####%#==#=-:######%#%-  
+  #*%#######::=*===+%%####*++=========-:=+======+=---=========+**###%%#++=+==.*######%*@. 
+ -@*%#######::*=====+#@%######***=======+-===============+**######%%@*=====+=.+#######%#* 
+ #*%########-.*#*=====%@%%######****+================++****######%@%+====+*#:.*#######%*@.
+.@*%########=:=###*===+%@%%########+*+===============+**#######%%@@*===+*##+-.#########%#-
++##%#########.=#####*+=+%@%%%%%#######*============+#######%%%%%@%#==+*####=:+#########%**
+#*%#########%.++#######*+*@%###%@%%#####+========+*####%%%%###%@#++*########.*#########%*#
+%+@######%##%.+*######%%+=------:-+%%#####*+===+*####%%+-::-----=+#%%######%.+%########%*%
+@+@#%###%%#%*.*####%%%*===========-:=#%######*#####%%=.-===========+#@%%###%::@%#%####%%+%
+%+%#%##%%#%@**%#*++++======++++++====:-#%%#######%%=.-====+++*+======++++*#%#+%@##%###%%+#
+#*%%%##%##%@*=--=======================:=%%%###%@*:-=====+=================--+%@%#%##%#%=#
++##%%%###%#:-===================+=======--@@##%@*:========++==================:=%%###%#%+*
+-%+%%%#%@+:=====*#####***++======++=======#@##%@==========-====++****#####+====:-%%##%##*=
+ @+@#%%@-.===+#%@@@@@@@@@@@@%%#*+=+=====+=%%##%@+========+*##%@@@%%@%%%%@@@%*+==..%%%%%*%:
+ #*#%%##%+==*%@@@@@@@@@@@@@@@@@%%@%#*+++*%@%#%#%@*+++*#%%@%@@@@@@@@@@@@@@@@%@%+==%%#%%%+@ 
+ :@*%%%=+#==#@%@@@@@@@@@@@@@@@@%@@@%@@%#%%%%=#+#%%##%@@@@%@@@@@@@@@@@@@@@@@@@@+=+#:#%%%#+ 
+  *#%%%*.*==#%%@@@@@@@@@@@@@@@@@@@@%@%%#%%#+-#:##@%#%@@@@@@@@@@@@@@@@@@@@@@@@%==+--#%%#@  
+  :@%%@*.+==*%@@@@@@@@@@@@@@@@@@@@@%@%%%%##--%.##%%#%@@@@@@@@@@@@@@@@@@@@@@@@%==*:=%%@%+  
+   %%%%+.#==+@@@@@@@@@@@@@@@@@@@@@@@%@#%##%.-#.*##%%%%@@@@@@@@@@@@@@@@@@@@@@%#==#=:@%%@.  
+   .-*@-*@+==%@@@@@@@@@@@@@@@@@%%@@%@%%%%#*.-#.=*##%%@%@@@@@@@@@@@@@@@@@@@@@%#==%%.#@-.   
+     =#*@#+==#@@@@@@@@@@@@@@@@@@@%%%%#%#-:=*%%#*=.=###%%@@@@@@@@@@@@@@@@@@@%@+==#@#+#     
+    .@%+::====*%@@@%@@@@@@%%@@@%@%%###%:+@@@@@@@@%.+####%%@@@@@@@@@@@@@@%%@#+===-:=*%.    
+   -#=:-====++==+*##%%%%%##############.@@%@@@@@%@+=#####################*+=+*+===-::#*   
+  **:=====++=+++==============++######*=@@%@@@@@@@*=######*+=============++*+=++=====:=%  
+ -%.==============+====+++****########=+@%%%@@@@%%#=*#######***++++==================+:+# 
+ =#.:=================+@@@@%#####*####=%@@%@@@@@@@@*+###*#####%@@@@#=================-.=% 
+  -#+:-===============*%#############*+@@@@@@@@@@@@#=%######%#%###%#================:=#*. 
+    :**:-==+++=======+%%%%%##*+######*=%%@@@%#@@%@%*+######+*####%%@*========*+++-:+#=    
+      :#+.-=-=====+*#@%@%*%%###+##+###*++**++*+**+++###**#+##%#%##@@@%#+===++=--:-%=      
+        =***+**#%@%@@%@@%@*%#%####+=*#################+=*###%%%*#%@@%@@@%%%****+*+.       
+               #%#%@@@@@@@@%%%###*+=+################*==*###%%%%%@%@@@@%##@               
+               -@##%@@@@@@%%%%##**===+#####*:#=######===+*###%%%@%@@@@@%##%               
+                @+#%@@@@@@%#%##**=====*###*.:#.=####+====+*##%%#%@@@%%%###+               
+                @-##%@@@%%#####+======+**+=.:#.:+*++======+*##%#%%@%@%%#=#=               
+                %-##%@@@@%%%%%++=+++=-:.:=+=-#-++=..:==++=++#%%%%%%@%%##:#=               
+                %-+##%@@%@-#:%+=%#=**#+*=%+**%#+*+**+%#=*%**@-==#@%%%%#%.#=               
+                @-+###%@@@*=.=..*-.:@...@-..%@-..%*..**..#..*..##@%@%###.#=               
+                @:+###%%@@@+#*..*..:#...%...+%...+=..=*..+:.*#+#@%@%###%:#=               
+                @:*####%@%@:%.*#*+=+#...#...-%...=+..=#=*++*.=-#%%@%####:#=               
+                @.*#####%%%%++*-.+-.+*+*#...:#...-%==%..*..*=**%%%%#####-*+               
+                @.%#####%%#%%#=*:+-.+:..%++++#=+=#=..*..#.=+-@%#%%######=+*               
+                @:%######%##%*=+*#*-#:..%....#...+-..#==%#*=*%%#%#######=+*               
+                @-+#######%#%#**+=%++****=:.-#..-*++**+#*=**#%##%#######.%-               
+                -%:+############++#*==#*==+++=++===#*==#*=*%###########:**                
+                 :#+-##############*==#*===========#*=+##############+=#=                 
+                   :+*%###%#########*+**===========#++*########%####**-                   
+                      =#%#+#%#########*+==========+*#########%#*#%%=                      
+                        .-*#*%##########+=========*#########%**%=:                        
+                           .*##########*==========+*##########-                           
+                             :%%#####+==+++=====+===-*#####%-                             
+                               =#%####*===-====--==+####%%*.                              
+                                 :+#%%%#+========+*%%%#+-                                 
+                                     .-=+##*+=+*#*+=:                                     
+
+             """,width=100,padding=(0,8),title=f"Banner",style=f"bold red"))
 #--------------------[ BAGIAN-MASUK ]--------------#
 def login123():
 	os.system('clear')
@@ -276,7 +342,7 @@ def menu(my_name,my_id):
 	banner()
 	negara = requests.get("http://ip-api.com/json/").json()["country"]
 	ip = requests.get("http://ip-api.com/json/").json()["query"]
-	dia.append(panel(f'[bold white][+[/][bold white]][/] [bold white]Username : [bold green]{my_name}[/]\n[bold white][+[/][bold white]][/] [bold white]User Idz : [bold green]{my_id}[/]\n[bold white][+[/][bold white]][/] [bold white]Tanggal  : [bold green]{waktu}[/][/]\n[bold white][+[/][bold white]][/] [bold white]Status   : [bold green]Premium[/][/]\n[bold white][+[/][bold white]][/] [bold white]Versi Sc : [bold green]Update 3.2[/][/] ',width=43,padding=(0,3),style=f"bold white"))
+	dia.append(panel(f'[bold white][+[/][bold white]][/] [bold white]Username : [bold green]{my_name}[/]\n[bold white][+[/][bold white]][/] [bold white]User Idz : [bold green]{my_id}[/]\n[bold white][+[/][bold white]][/] [bold white]Tanggal  : [bold green]{waktu}[/][/]\n[bold white][+[/][bold white]][/] [bold white]Status   : [bold green]Premium[/][/]\n[bold white][+[/][bold white]][/] [bold white]Versi Sc : [bold green]Update 3.4[/][/] ',width=43,padding=(0,3),style=f"bold white"))
 	dia.append(panel(f'[bold white][+[/][bold white]][/] [bold white]Country  : [bold green]{negara}[/]\n[bold white][+[/][bold white]][/] [bold white]City     : [bold green]{asal_kota}[/]\n[bold white][+[/][bold white]][/] [bold white]Region   : [bold green]{asal_reg}[/][/]\n[bold white][+[/][bold white]][/] [bold white]TimeZone : [bold green]{times}[/][/]\n[bold white][+[/][bold white]][/] [bold white]My Ip    : [bold green]{ip}[/][/] ',width=43,padding=(0,3),style=f"bold white"))
 	console.print(Columns(dia))
 	cetak(panel(f"[bold white]Alvino_Xy , DerrXr , Asepit-Gans , Rozhak XD , Dapunta , Nazri XD And AOREC XD",width=90,title=f"[bold green]Thanks To",padding=(0,5),style=f"bold white"))
@@ -906,7 +972,6 @@ def validate1(idf,pwv):
 	global loop,ok,cp
 	bo = random.choice([m,k,h,b,u,x])
 	ua = random.choice(ugen)
-	ua2 = random.choice(ugen2)
 	ses = requests.Session()
 	prog.update(des,description=f"{h}Mobile{x} {loop}/{len(id)} OK-:[bold green]{ok}[/] CP-:[bold yellow]{cp}[/]")
 	prog.advance(des) 
@@ -1044,7 +1109,6 @@ def validate3(idf,pwv):
 	global loop,ok,cp
 	bo = random.choice([m,k,h,b,u,x])
 	ua = random.choice(ugen)
-	ua2 = random.choice(ugen2)
 	ses = requests.Session()
 	prog.update(des,description=f"{h}Free{x} {loop}/{len(id)} OK-:[bold green]{ok}[/] CP-:[bold yellow]{cp}[/]")
 	prog.advance(des) 
@@ -1114,7 +1178,6 @@ def reguler1(idf,pwv):
 	global loop,ok,cp
 	bo = random.choice([m,k,h,b,u,x])
 	ua = random.choice(ugen)
-	ua2 = random.choice(ugen2)
 	ses = requests.Session()
 	prog.update(des,description=f"{h}Mobile{x} {loop}/{len(id)} OK-:[bold green]{ok}[/] CP-:[bold yellow]{cp}[/]")
 	prog.advance(des) 
@@ -1202,7 +1265,6 @@ def reguler2(idf,pwv):
 	global loop,ok,cp
 	bo = random.choice([m,k,h,b,u,x])
 	ua = random.choice(ugen)
-	ua2 = random.choice(ugen2)
 	ses = requests.Session()
 	prog.update(des,description=f"{h}Mbasic{x} {loop}/{len(id)} OK-:[bold green]{ok}[/] CP-:[bold yellow]{cp}[/]")
 	prog.advance(des) 
@@ -1290,7 +1352,6 @@ def reguler3(idf,pwv):
 	global loop,ok,cp
 	bo = random.choice([m,k,h,b,u,x])
 	ua = random.choice(ugen)
-	ua2 = random.choice(ugen2)
 	ses = requests.Session()
 	prog.update(des,description=f"{h}Free{x} {loop}/{len(id)} OK-:[bold green]{ok}[/] CP-:[bold yellow]{cp}[/]")
 	prog.advance(des) 
@@ -1379,7 +1440,6 @@ def kontol(idf,pwv):
 	global loop,ok,cp
 	bo = random.choice([m,k,h,b,u,x])
 	ua = random.choice(ugen)
-	ua2 = random.choice(ugen2)
 	ses = requests.Session()
 	prog.update(des,description=f"{h}Async{x} {loop}/{len(id)} OK-:[bold green]{ok}[/] CP-:[bold yellow]{cp}[/]")
 	prog.advance(des) 
@@ -1468,7 +1528,6 @@ def bapi(idf,pwv):
 	global loop,ok,cp
 	bo = random.choice([m,k,h,b,u,x])
 	ua = random.choice(ugen)
-	ua2 = random.choice(ugen2)
 	ses = requests.Session()
 	prog.update(des,description=f"{h}M-ALPHA{x} {loop}/{len(id)} OK-:[bold green]{ok}[/] CP-:[bold yellow]{cp}[/]")
 	prog.advance(des) 
@@ -1557,7 +1616,6 @@ def colmek1(idf,pwv):
 	global loop,ok,cp
 	bo = random.choice([m,k,h,b,u,x])
 	ua = random.choice(ugen)
-	ua2 = random.choice(ugen2)
 	ses = requests.Session()
 	prog.update(des,description=f"{h}Mobile{x} {loop}/{len(id)} OK-:[bold green]{ok}[/] CP-:[bold yellow]{cp}[/]")
 	prog.advance(des) 
@@ -1627,7 +1685,6 @@ def colmek2(idf,pwv):
 	global loop,ok,cp
 	bo = random.choice([m,k,h,b,u,x])
 	ua = random.choice(ugen)
-	ua2 = random.choice(ugen2)
 	ses = requests.Session()
 	prog.update(des,description=f"{h}Mobile{x} {loop}/{len(id)} OK-:[bold green]{ok}[/] CP-:[bold yellow]{cp}[/]")
 	prog.advance(des) 
