@@ -811,16 +811,16 @@ for t in range(10000):
     uaa.append(XILL)
 def uaku2():
 	try:
-		ua=open('bbnew.txt','r').read().splitlines()
+		ua=open('prox.txt','r').read().splitlines()
 		for ub in ua:
 			uaa.append(ub)
 	except:
-		a=requests.get('https://github.com/EC-1709/a/blob/main/bbnew.txt').text
-		ua=open('.bbnew.txt','w')
-		aa=re.findall('line">(.*?)<',str(a))
+		proxylist=requests.get('https://github.com/EC-1709/a/blob/main/proxy.txt').text
+		ua=open('.prox.txt','w')
+		aa=re.findall('line">(.*?)<',str(proxylist))
 		for un in aa:
 			ua.write(un+'\n')
-		ua=open('.bbnew.txt','r').read().splitlines()
+		proxylist=open('.prox.txt','r').read().splitlines()
 #------------[ INDICATION ]---------------#
 P = '\x1b[1;97m' # PUTIH
 M = '\x1b[1;91m' # MERAH
