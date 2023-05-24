@@ -1702,7 +1702,7 @@ def cektahun(fx):
 	elif len(fx)==7:
 		tahunz = '2006'
 	else:tahunz=''
-	return Tahunz
+	return tahunz
 #--------------------[ METODE VALIDATE ]-----------------#
 def validate1(idf,pwv):
 	global loop,ok,cp
