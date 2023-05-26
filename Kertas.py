@@ -809,7 +809,7 @@ for t in range(10000):
     g=random.randrange(11, 21)
     XILL=f'Mozilla/5.0 (Linux; Android {a}; SAMSUNG SM-C7{f}F) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/{g}.0 Chrome/{c}.0.{d}.{e} Mobile Safari/537.36'
     uaa.append(XILL)
-def uaku2(
+
 #------------[ INDICATION ]---------------#
 P = '\x1b[1;97m'
 M = '\x1b[1;91m'
