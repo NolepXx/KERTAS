@@ -1737,7 +1737,6 @@ def validate1(idf,pwv):
 					ceker(idf,pw)
 					break
 			elif "c_user" in ses.cookies.get_dict().keys():
-				print(f'\r{x}[{b}â{x}] {h}{idf}|{pw} >> {cektahun(idf)}\n{kukis}\n{x}{ua}{N}')
 				if 'no' in taplikasi:
 					ok+=1
 					coki=po.cookies.get_dict()
