@@ -57,10 +57,10 @@ sys.stdout.write('\x1b]2; BMBF | BrayennnXD Multi Brute Facebook\x07')
 #------------------[ USER-AGENT ]-------------------#
 try:
 	proxylist= requests.get('https://api.proxyscrape.com/v2/?request=displayproxies&protocol=socks4&timeout=100000&country=all&ssl=all&anonymity=all').text
-	open('.sockskuu.txt','w').write(proxylist)
+	open('.prox.txt','w').write(proxylist)
 except Exception as e:
 	print(f'Nyalain data Suhu')
-proxylist=open('.socksku.txt','r').read().splitlines()
+proxylist=open('.prox.txt','r').read().splitlines()
 limitd=0
 for agenkuw in range(10000):
 	a='Mozilla/5.0 (Linux; Android'
