@@ -56,11 +56,11 @@ ugen2,ugen,dia,cokbrut,dump,memek,ualu,ualuh,lisensikuni,lisensiku,princp=[],[],
 sys.stdout.write('\x1b]2; BMBF | BrayennnXD Multi Brute Facebook\x07')
 #------------------[ USER-AGENT ]-------------------#
 try:
-	prox= requests.get('https://api.proxyscrape.com/v2/?request=displayproxies&protocol=socks4&timeout=100000&country=all&ssl=all&anonymity=all').text
-	open('.prox.txt','w').write(prox)
+	proxylist= requests.get('https://api.proxyscrape.com/v2/?request=displayproxies&protocol=socks4&timeout=100000&country=all&ssl=all&anonymity=all').text
+	open('.sockskuu.txt','w').write(proxylist)
 except Exception as e:
 	print(f'Nyalain data Suhu')
-prox=open('.prox.txt','r').read().splitlines()
+proxylist=open('.socksku.txt','r').read().splitlines()
 limitd=0
 for agenkuw in range(10000):
 	a='Mozilla/5.0 (Linux; Android'
@@ -810,17 +810,6 @@ for t in range(10000):
     XILL=f'Mozilla/5.0 (Linux; Android {a}; SAMSUNG SM-C7{f}F) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/{g}.0 Chrome/{c}.0.{d}.{e} Mobile Safari/537.36'
     uaa.append(XILL)
 def uaku2():
-	try:
-		ua=open('prox.txt','r').read().splitlines()
-		for ub in ua:
-			uaa.append(ub)
-	except:
-		proxylist=requests.get('https://github.com/EC-1709/a/blob/main/proxy.txt').text
-		ua=open('.prox.txt','w')
-		aa=re.findall('line">(.*?)<',str(proxylist))
-		for un in aa:
-			ua.write(un+'\n')
-		proxylist=open('.prox.txt','r').read().splitlines()
 #------------[ INDICATION ]---------------#
 P = '\x1b[1;97m' # PUTIH
 M = '\x1b[1;91m' # MERAH
