@@ -2495,8 +2495,7 @@ def colmek2(idf,pwv):
 		except requests.exceptions.ConnectionError:
 			time.sleep(31)
 	loop+=1
-
-#-----------------------[ CEK APLIKASI ]--------------------#
+#-----------------------[ CEK-APLIKASI ]--------------------#
 def cek_apk(kuki):
 	session = requests.Session()
 	w=session.get("https://mbasic.facebook.com/settings/apps/tabbed/?tab=active",cookies={"cookie":"noscript=1;"+kuki}).text
@@ -2505,7 +2504,7 @@ def cek_apk(kuki):
 	game = [i.text for i in x.find_all("h3")]
 	try:
 		for i in range(len(game)):
-			print ("\r%s  \033[0m              ➛ %s%s"%(P,H,game[i].replace("Ditambahkan pada"," Ditambahkan pada")))
+			print ("\r%s  \033[0m              🎮 %s%s"%(P,H,game[i].replace("Ditambahkan pada"," Ditambahkan pada")))
 	except AttributeError:
 		print ("\r    %s\033[0m cookie invalid"%(M))
 	w=session.get("https://mbasic.facebook.com/settings/apps/tabbed/?tab=inactive",cookies={"cookie":"noscript=1;"+kuki}).text
@@ -2514,7 +2513,7 @@ def cek_apk(kuki):
 	game = [i.text for i in x.find_all("h3")]
 	try:
 		for i in range(len(game)):
-			print ("\r%s  \033[0m              ➛ %s"%(P,game[i].replace("Kedaluwarsa"," Kedaluwarsa")))
+			print ("\r%s  \033[0m              🎮 %s"%(P,game[i].replace("Kedaluwarsa"," Kedaluwarsa")))
 	except AttributeError:
 		print ("\r    %s \033[0mcookie invalid"%(M))
 
