@@ -223,7 +223,7 @@ def uaku():
 		for un in aa:
 			ua.write(un+'\n')
 		ua=open('.ua.txt','r').read().splitlines()
-		### --------- [ User Agent By Denventa ] --------- ###	
+### --------- [ User Agent By Denventa ] --------- ###	
 for xd in range(80000):
 	a=random.choice(['1','1.0','1.5','2','2.0','2.5','3','3.0','3.5','4','4.0','4.5','5','5.0','5.5','6','6.0','6.5','7','7.0','7.5','8','8.0','8.5','9','9.0','9.5','10','10.0','10.5','11','11.0','11.5','12','12.0','12.5','13'])
 	a=random.choice(['1','1.0','1.5','2','2.0','2.5','3','3.0','3.5','4','4.0','4.5','5','5.0','5.5','6','6.0','6.5','7','7.0','7.5','8','8.0','8.5','9','9.0','9.5','10','10.0','10.5','11','11.0','11.5','12','12.0','12.5','13'])
@@ -409,13 +409,6 @@ for xd in range(80000) :
 	g='Mobile Safari/537.36'
 	uga=f'{a} {b}; {c} {d}) {e}{f} {g}'
 	ugen.append(uga)
-	#------------------[ USER-AGENT ]-------------------#
-try:
-	prox= requests.get('https://api.proxyscrape.com/v2/?request=displayproxies&protocol=socks4&timeout=80000&country=all&ssl=all&anonymity=all').text
-	open('.prox.txt','w').write(prox)
-except Exception as e:
-	print(' [+] Koneksi Internet Anda Tidak Terdeteksi Silahkan Cek Kuota Anda Ya Salam Dari BrayennnXD')
-prox=open('.prox.txt','r').read().splitlines()
 #------------[ INDICATION ]---------------#
 P = '\x1b[1;97m' # PUTIH
 M = '\x1b[1;91m' # MERAH
@@ -530,6 +523,13 @@ def banner():
                    ..      .@@@:  *@@+.*+.     :-@@+     %@@=     +@#=.                   
                           .%@@*  .@@@. %@@.   .: #@@-    -@@@:    .                       
                            :-:  *@@# .@@@:.  -..:@@@:   .*+=:                            
+
+______________.___._______      _____      _____   ________  .____         _____ __________    _____ _____.___.
+\_   ___ \__  |   |\      \    /  _  \    /     \  \_____  \ |    |       /  _  \\______   \  /     \\__  |   |
+/    \  \//   |   |/   |   \  /  /_\  \  /  \ /  \  /   |   \|    |      /  /_\  \|       _/ /  \ /  \/   |   |
+\     \___\____   /    |    \/    |    \/    Y    \/    |    \    |___  /    |    \    |   \/    Y    \____   |
+ \______  / ______\____|__  /\____|__  /\____|__  /\_______  /_______ \ \____|__  /____|_  /\____|__  / ______|
+        \/\/              \/         \/         \/         \/        \/         \/       \/         \/\/       
 
              """,width=100,padding=(0,3),title=f"Banner",style=f"bold cyan"))
 #--------------------[ BAGIAN-MASUK ]--------------#
