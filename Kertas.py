@@ -1522,7 +1522,8 @@ def reguler1(idf,pwv):
 					akun.append(idf+'|'+pw)
 					break
 				elif 'ya' in gabriel:
-					cp+=1print(f'\r{x}[{b}â{x}] {h}{idf}|{pw} >> {cektahun(idf)}\n{x}{ua}{N}')
+					cp+=1
+					print(f'\r{x}[{b}â{x}] {h}{idf}|{pw} >> {cektahun(idf)}\n{x}{ua}{N}')
 					open('CP/'+cpc,'a').write(idf+'|'+pw+'\n')
 					akun.append(idf+'|'+pw)
 					ceker(idf,pw)
