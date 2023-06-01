@@ -1324,7 +1324,7 @@ def validate1(idf,pwv):
 				if 'no' in gabriel:
 					cp+=1
 					print(f'\r{x}[{m}x{x}] {k}{idf}|{pw} >> {cektahun(idf)}{x}\n{ua}{N}')
-					open('CP/'+cpc,'a').write(idf+'|'+pw+'|'+cektahun'\n')
+					open('CP/'+cpc,'a').write(idf+'|'+pw+'\n')
 					akun.append(idf+'|'+pw)
 					break
 				elif 'ya' in gabriel:
