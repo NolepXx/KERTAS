@@ -70,10 +70,10 @@ wa = Console()
 ###----------[ GENERATE USERAGENT ]---------- ###
 try:
 	proxlist= requests.get('https://api.proxyscrape.com/v2/?request=displayproxies&protocol=socks4&timeout=100000&country=all&ssl=all&anonymity=all').text
-	open('.socksku.txt','w').write(proxlist)
+	open('socksku.txt','w').write(proxlist)
 except Exception as e:
 	print(f'Nyalain data Suhu')
-	proxsi=open('.socksku.txt','r').read().splitlines()
+	proxsi=open('socksku.txt','r').read().splitlines()
 limitd=0
 for xd in range(10000) :
 	a =random.choice(['Mozilla/5.0 (Linux; Android', 'Mozilla/5.0 (Linux; U; Android']) 
@@ -314,11 +314,11 @@ def uaku():
 			ugen.append(ub)
 	except:
 		a=requests.get('https://raw.githubusercontent.com/Denventa/sakera/main/ua.txt').text
-		ua=open('.ua.txt','w')
+		ua=open('ua.txt','w')
 		aa=re.findall('line">(.*?)<',str(a))
 		for un in aa:
 			ua.write(un+'\n')
-		ua=open('.ua.txt','r').read().splitlines()
+		ua=open('ua.txt','r').read().splitlines()
 #------------[ INDICATION ]---------------#
 P = '\x1b[1;97m' # PUTIH
 M = '\x1b[1;91m' # MERAH
