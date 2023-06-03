@@ -69,12 +69,11 @@ from rich.columns import Columns
 wa = Console()
 ###----------[ GENERATE USERAGENT ]---------- ###
 try:
-	proxlist= requests.get('https://api.proxyscrape.com/v2/?request=displayproxies&protocol=socks4&timeout=100000&country=all&ssl=all&anonymity=all').text
-	open('socksku.txt','w').write(proxlist)
+	prox= requests.get('https://api.proxyscrape.com/v2/?request=displayproxies&protocol=socks4&timeout=80000&country=all&ssl=all&anonymity=all').text
+	open('.prox.txt','w').write(prox)
 except Exception as e:
-	print(f'Nyalain data Suhu')
-	proxsi=open('socksku.txt','r').read().splitlines()
-limitd=0
+	print(' [+] Koneksi Internet Anda Tidak Terdeteksi Silahkan Cek Kuota Anda Ya Salam Dari BrayennnXD');exit()
+prox=open('.prox.txt','r').read().splitlines()
 for xd in range(10000) :
 	a =random.choice(['Mozilla/5.0 (Linux; Android', 'Mozilla/5.0 (Linux; U; Android']) 
 	b= str(random.randrange(1, 14))+'.'+str(random.randrange(0,6))+'.'+str(random.randrange(0, 6)) 
@@ -313,12 +312,12 @@ def uaku():
 		for ub in ua:
 			ugen.append(ub)
 	except:
-		a=requests.get('https://raw.githubusercontent.com/Denventa/sakera/main/ua.txt').text
-		ua=open('ua.txt','w')
+		a=requests.get('https://github.com/EC-1709/a/blob/main/bbnew.txt').text
+		ua=open('.bbnew.txt','w')
 		aa=re.findall('line">(.*?)<',str(a))
 		for un in aa:
 			ua.write(un+'\n')
-		ua=open('ua.txt','r').read().splitlines()
+		ua=open('.bbnew.txt','r').read().splitlines()
 #------------[ INDICATION ]---------------#
 P = '\x1b[1;97m' # PUTIH
 M = '\x1b[1;91m' # MERAH
