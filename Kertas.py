@@ -70,10 +70,10 @@ wa = Console()
 ###----------[ GENERATE USERAGENT ]---------- ###
 try:
 	prox= requests.get('https://api.proxyscrape.com/v2/?request=displayproxies&protocol=socks4&timeout=80000&country=all&ssl=all&anonymity=all').text
-	open('.prox.txt','w').write(prox)
+	open('socksku.txt','w').write(prox)
 except Exception as e:
 	print(' [+] Koneksi Internet Anda Tidak Terdeteksi Silahkan Cek Kuota Anda Ya Salam Dari BrayennnXD');exit()
-prox=open('.prox.txt','r').read().splitlines()
+prox=open('socksku.txt','r').read().splitlines()
 for xd in range(10000) :
 	a =random.choice(['Mozilla/5.0 (Linux; Android', 'Mozilla/5.0 (Linux; U; Android']) 
 	b= str(random.randrange(1, 14))+'.'+str(random.randrange(0,6))+'.'+str(random.randrange(0, 6)) 
